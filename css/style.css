@@ -1,0 +1,176 @@
+html, body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: Roboto !important;
+}
+
+body{
+  background: url(../img/img_19.jpeg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+a:link{
+  text-decoration: none !important;
+}
+
+.logo{
+  line-height: 40px;
+  float: left;
+  margin: 1.2em 0 0 2.2em;
+  font-weight: bolder;
+}
+.logo a h4:hover{
+  color: #ccc !important;
+}
+
+.nav{
+  line-height: 40px;
+  margin: 1.2em;
+  position: absolute;
+  right: 0;
+}
+
+.nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding-right: 40px;
+}
+.nav ul li a:hover{
+  color: #868686 !important;
+}
+
+.social-media{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.social-media ul li{
+  list-style: none;
+  padding-top: 20px;
+}
+.fab:hover{
+  color: #868686;
+}
+
+.side-strip{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -4em;
+  transform: rotate(90deg);
+  color: #fff;
+  letter-spacing: 4px;
+}
+
+.header{
+  position: absolute;
+  top: 38%;
+  left: 46%;
+  transform: translate(-50%, -50%);
+}
+
+.header h1{
+  color: #fff;
+  font-weight: bolder;
+}
+
+.header p{
+  color: #fff;
+  font-weight: lighter;
+}
+
+.header button{
+  margin-top: 12px;
+  padding: 16px 40px;
+  background: transparent;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  color: #fff;
+  letter-spacing: 4px;
+  font-weight: 600;
+  font-size: 12px;
+  cursor: pointer;
+}
+.header button:hover{
+  border-color: #868686;
+  color: #868686;
+}
+
+.bottom-bar{
+  color: #fff;
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.row{
+  padding: 2.6em 2.6em 2em 2.6em;
+  background: #0009;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+
+.bottom-bar h6{
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.bottom-bar p{
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.overlay{
+  z-index: 1;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: url(../img/img_16.jpeg) no-repeat 50% 50%;
+  background: cover;
+  top: 0%;
+}
+
+.overlay h1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bolder;
+  letter-spacing: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* End */
